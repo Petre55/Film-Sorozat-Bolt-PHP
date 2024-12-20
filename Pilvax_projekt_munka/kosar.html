@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Kosár</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/header1.png" alt="kep">
+    <img src="img/header1.png" alt="kep">
+    <img src="img/header1.png" alt="kep">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Kezdőlap</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Kategóriák</a>
+        <div class="dropdown-content">
+          <a href="sorozat.html">Sorozatok</a>
+          <a href="filmek.html">Filmek</a>
+        </div>
+      </li>
+      <li class="jobbramegy"><a href="profil.html"><img class="profil" src="img/profile.png" alt="Profil"></a></li>
+      <li class="jobbramegy"><a href="admin.html"><img class="admin" src="img/admin.png" alt="Admin"></a></li>
+      <li class="jobbramegy"><a href="kosar.html">Kosár</a></li>
+      <li class="jobbramegy"><a href="login.html">Bejelentkezés</a></li>
+    </ul>
+  </nav>
+  <div class="oldal">
+    <h1>Kosár</h1>
+    <div class="osszefogo">
+      <div class="vasarlasok">
+        <div class="rows">
+          <div class="col-md-8">
+            <img class="kosarimg" src="img/panda.jpg" alt="">
+          </div>
+          <div class="torles">
+            <p>Kung Fu Panda</p>
+            <input class="torlesgomb" type="button" value="Törlés">
+          </div>
+          <div class="col-md-4">
+            <p>4000 Ft</p>
+          </div>
+        </div>
+        <div class="rows">
+          <div class="col-md-8">
+            <img class="kosarimg" src="img/vampire.webp" alt="">
+          </div>
+          <div class="torles">
+            <p>Vámpírnaplók</p>
+            <input class="torlesgomb" type="button" value="Törlés">
+          </div>
+          <div class="col-md-4">
+            <p>4000 Ft</p>
+          </div>
+        </div>
+        <div class="rows">
+          <div class="col-md-8">
+            <img class="kosarimg" src="img/tronok.webp" alt="">
+          </div>
+          <div class="torles">
+            <p>Trónokharca</p>
+            <input class="torlesgomb" type="button" value="Törlés">
+          </div>
+          <div class="col-md-4">
+            <p>8000 Ft</p>
+          </div>
+        </div>
+        <div class="rows">
+          <div class="col-md-8">
+            <img class="kosarimg" src="img/poki.jpg" alt="">
+          </div>
+          <div class="torles">
+            <p>Pókember</p>
+            <input class="torlesgomb" type="button" value="Törlés">
+          </div>
+          <div class="col-md-4">
+            <p>6000 Ft</p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="oldalsav">
+        <div class="balra">
+          <h4>Megrendelés:</h4>
+          <p>Kung Fu Panda: 4000 Ft</p>
+          <p>Vámpírnaplók: 4000 Ft</p>
+          <p>Trónokharca: 8000 Ft</p>
+          <p>Pókember: 6000 Ft</p>
+          <div class="jobbraFizet">
+            Összeg: 32.000 Ft <br>
+            <input class="torlesgomb" type="button" value="Törlés">
+          </div>
+          <div class="fizetes">
+            <h4>Adatok:</h4>
+            <label for="vezetek">Vezetéknév</label><br>
+            <input id="vezetek" type="text"><br>
+            <label for="kereszt">Keresztnév</label><br>
+            <input id="kereszt" type="text"><br>
+            <label for="email">E-mail</label><br>
+            <input id="email" type="email"><br>
+            <label for="telefon">Telefonszám</label><br>
+            <input id="telefon" type="tel"><br>
+            <label for="szamlaszam">Számlaszám</label><br>
+            <input id="szamlaszam" type="number"><br>
+            <label for="lejarat">Lejárati dátum</label><br>
+            <input id="lejarat" type="number"><br>
+            <label for="cvc">CVC</label><br>
+            <input id="cvc" type="number"><br>
+          </div>
+          <div class="jobbraFizet">
+            <input type="submit" value="Megrendelés">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <footer>
+      <p class="elerhetoseg">Elérhetőségek:</p>
+      <div class="footer"><a href="mailto:">
+          <p class="res">pilvaxszte@gmail.com</p>
+        </a>
+        <p class="res">30/4569321</p>
+        <img class="logok res" src="img/facebook.png" alt="facebook">
+        <img class="logok res" src="img/Instagram_icon.png" alt="instagram">
+        <img class="logok res" src="img/tiktok.png" alt="tiktok">
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

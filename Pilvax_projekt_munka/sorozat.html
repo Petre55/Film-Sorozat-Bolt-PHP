@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Sorozatok</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/header1.png" alt="kep">
+    <img src="img/header1.png" alt="kep">
+    <img src="img/header1.png" alt="kep">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Kezdőlap</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Kategóriák</a>
+        <div class="dropdown-content">
+          <a href="sorozat.html">Sorozatok</a>
+          <a href="filmek.html">Filmek</a>
+        </div>
+      </li>
+      <li class="jobbramegy"><a href="profil.html"><img class="profil" src="img/profile.png" alt="Profil"></a></li>
+      <li class="jobbramegy"><a href="admin.html"><img class="admin" src="img/admin.png" alt="Admin"></a></li>
+      <li class="jobbramegy"><a href="kosar.html">Kosár</a></li>
+      <li class="jobbramegy"><a href="login.html">Bejelentkezés</a></li>
+    </ul>
+  </nav>
+  <div class="oldal">
+    <h1>Sorozatok</h1>
+    <div class="row">
+      <div class="col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="img/avatar.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Avatár - Az utolsó légidomár</h5>
+            <p class="card-text"> Egy amerikai fantasy dráma televíziós sorozat.</p>
+            <p class="card-text"> Ár: 4000 Ft.</p>
+            <p class="card-text">Átlag értékelés: 4,5</p>
+            <p class="rate">
+              <input type="radio" id="avatarstar5" name="avatar" value="5" />
+              <label for="avatarstar5" title="text">5 stars</label>
+              <input type="radio" id="avatarstar4" name="avatar" value="4" />
+              <label for="avatarstar4" title="text">4 stars</label>
+              <input type="radio" id="avatarstar3" name="avatar" value="3" />
+              <label for="avatarstar3" title="text">3 stars</label>
+              <input type="radio" id="avatarstar2" name="avatar" value="2" />
+              <label for="avatarstar2" title="text">2 stars</label>
+              <input type="radio" id="avatarstar1" name="avatar" value="1" />
+              <label for="avatarstar1" title="text">1 star</label>
+            </p>
+            <form>
+              <label for="avatar">Évad:</label>
+              <select id="avatar" name="avatar" size=1>
+                <option value="evad1" selected>1</option>
+                <option value="evad2">2</option>
+                <option value="evad3">3</option>
+                <option value="evad4">4</option>
+             </select> <br>
+              <input type="submit" class="kosargomb" value="Kosár">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="img/harry.jpeg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Harry Potter</h5>
+            <p class="card-text">Hét kötetből álló, fantasy műfajú regénysorozata.</p>
+            <p class="card-text"> Ár: 20000 Ft.</p>
+            <p class="card-text">Átlag értékelés: 4,8</p>
+            <p class="rate">
+              <input type="radio" id="potterstar5" name="potter" value="5" />
+              <label for="potterstar5" title="text">5 stars</label>
+              <input type="radio" id="potterstar4" name="potter" value="4" />
+              <label for="potterstar4" title="text">4 stars</label>
+              <input type="radio" id="potterstar3" name="potter" value="3" />
+              <label for="potterstar3" title="text">3 stars</label>
+              <input type="radio" id="potterstar2" name="potter" value="2" />
+              <label for="potterstar2" title="text">2 stars</label>
+              <input type="radio" id="potterstar1" name="potter" value="1" />
+              <label for="potterstar1" title="text">1 star</label>
+            </p>
+            <form>
+              <label for="potter">Évad:</label>
+              <select id="potter" name="potter" size=1>
+                <option value="evad1" selected>1</option>
+                <option value="evad2">2</option>
+                <option value="evad3">3</option>
+                <option value="evad4">4</option>
+             </select> <br>
+              <input type="submit" class="kosargomb" value="Kosár">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="img/tronok.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Trónok Harca</h5>
+            <p class="card-text">Amerikai televíziós fantasy nagy sikerű regénysorozata.</p>
+            <p class="card-text"> Ár: 8000 Ft.</p>
+            <p class="card-text">Átlag értékelés: 4,5</p>
+            <p class="rate">
+              <input type="radio" id="tronokstar5" name="tronok" value="5" />
+              <label for="tronokstar5" title="text">5 stars</label>
+              <input type="radio" id="tronokstar4" name="tronok" value="4" />
+              <label for="tronokstar4" title="text">4 stars</label>
+              <input type="radio" id="tronokstar3" name="tronok" value="3" />
+              <label for="tronokstar3" title="text">3 stars</label>
+              <input type="radio" id="tronokstar2" name="tronok" value="2" />
+              <label for="tronokstar2" title="text">2 stars</label>
+              <input type="radio" id="tronokstar1" name="tronok" value="1" />
+              <label for="tronokstar1" title="text">1 star</label>
+            </p>
+            <form>
+              <label for="tronok">Évad:</label>
+              <select id="tronok" name="tronok" size=1>
+                <option value="evad1" selected>1</option>
+                <option value="evad2">2</option>
+                <option value="evad3">3</option>
+                <option value="evad4">4</option>
+             </select> <br>
+              <input type="submit" class="kosargomb" value="Kosár">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="img/vampire.webp" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Vámpírnaplók</h5>
+            <p class="card-text">A sorozat egy természetfeletti lények által kísértett Mystic Fallsban játszódik.</p>
+            <p class="card-text"> Ár: 4000 Ft.</p>
+            <p class="card-text">Átlag értékelés: 4,5</p>
+            <p class="rate">
+              <input type="radio" id="vampirstar5" name="vampir" value="5" />
+              <label for="vampirstar5" title="text">5 stars</label>
+              <input type="radio" id="vampirstar4" name="vampir" value="4" />
+              <label for="vampirstar4" title="text">4 stars</label>
+              <input type="radio" id="vampirstar3" name="vampir" value="3" />
+              <label for="vampirstar3" title="text">3 stars</label>
+              <input type="radio" id="vampirstar2" name="vampir" value="2" />
+              <label for="vampirstar2" title="text">2 stars</label>
+              <input type="radio" id="vampirstar1" name="vampir" value="1" />
+              <label for="vampirstar1" title="text">1 star</label>
+            </p>
+            <form>
+              <label for="vampir">Évad:</label>
+              <select id="vampir" name="vampir" size=1>
+                <option value="evad1" selected>1</option>
+                <option value="evad2">2</option>
+                <option value="evad3">3</option>
+                <option value="evad4">4</option>
+             </select> <br>
+              <input type="submit" class="kosargomb" value="Kosár">
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card">
+          <img class="card-img-top" src="img/panda.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kung Fu Panda</h5>
+            <p class="card-text">Amerikai számítógépes animációs filmvígjáték.</p>
+            <p class="card-text"> Ár: 4000 Ft.</p>
+            <p class="card-text">Átlag értékelés: 4,5</p>
+            <p class="rate">
+              <input type="radio" id="pandastar5" name="panda" value="5" />
+              <label for="pandastar5" title="text">5 stars</label>
+              <input type="radio" id="pandastar4" name="panda" value="4" />
+              <label for="pandastar4" title="text">4 stars</label>
+              <input type="radio" id="pandastar3" name="panda" value="3" />
+              <label for="pandastar3" title="text">3 stars</label>
+              <input type="radio" id="pandastar2" name="panda" value="2" />
+              <label for="pandastar2" title="text">2 stars</label>
+              <input type="radio" id="pandastar1" name="panda" value="1" />
+              <label for="pandastar1" title="text">1 star</label>
+            </p>
+            <form>
+              <label for="panda">Évad:</label>
+              <select id="panda" name="panda" size=1>
+                <option value="evad1" selected>1</option>
+                <option value="evad2">2</option>
+                <option value="evad3">3</option>
+                <option value="evad4">4</option>
+             </select> <br>
+              <input type="submit" class="kosargomb" value="Kosár">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="elerhetoseg">Elérhetőségek:</p>
+      <div class="footer"><a href="mailto:">
+          <p class="res">pilvaxszte@gmail.com</p>
+        </a>
+        <p class="res">30/4569321</p>
+        <img class="logok res" src="img/facebook.png" alt="facebook">
+        <img class="logok res" src="img/Instagram_icon.png" alt="instagram">
+        <img class="logok res" src="img/tiktok.png" alt="tiktok">
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+body {
+  background-color: #c7ddcc;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: "Cutive", serif;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  overflow: hidden;
+}
+
+/*navbar*/
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c7ddcc;
+  font-size: 18pt;
+  border-bottom: 2px solid rgb(50, 117, 97);
+}
+
+ul {
+  padding: 0;
+  padding-top: 1px;
+  margin: 0;
+}
+
+li {
+  float: left;
+  list-style-type: none;
+}
+
+li a,
+.dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding-right: 18px;
+  text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+  background-color: rgb(216, 216, 216);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+li {
+  list-style-type: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(216, 216, 216);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgb(216, 216, 216);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+#evad::placeholder {
+  color: transparent;
+}
+
+span {
+  font-weight: bold;
+}
+
+.profil {
+  width: 30px;
+}
+
+.admin {
+  width: 30px;
+}
+
+h1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40pt;
+  padding-bottom: 70px;
+  font-family: "Cutive", serif;
+  font-weight: normal;
+}
+
+.jobbramegy {
+  float: right;
+}
+
+/*footer*/
+.elerhetoseg {
+  color: white;
+  font-size: 18px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+footer {
+  margin-top: auto;
+  height: 60px;
+  background-color: rgb(50, 117, 97);
+  color: white;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+ 
+}
+
+.res {
+  
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.logok {
+  width: 40px;
+  height: 40px;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.fel {
+  vertical-align: top;
+}
+
+h2 {
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 30pt;
+}
+
+
+
+h3 {
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+/*index*/
+.szoveg {
+  font-size: 18px;
+}
+
+.csik {
+  width: 60%;
+  border: 1px solid rgb(50, 117, 97);
+}
+
+/* login/regisztracio*/
+.login {
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  margin-bottom: 100px;
+}
+
+.bejelentkezes {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+
+.bejelentkezes label {
+  font-size: 25px;
+}
+
+.bejelentkezes input[type=text] {
+  width: 500px;
+  height: 35px;
+  border-radius: 7px;
+}
+
+.bejelentkezes input[type=password] {
+  width: 500px;
+  height: 35px;
+  border-radius: 7px;
+}
+
+.bejelentkezes input[type=email] {
+  width: 500px;
+  height: 35px;
+  border-radius: 7px;
+}
+
+.card-title {
+  font-size: 20px;
+}
+
+.bejelentkezes input[type="submit"] {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(50, 117, 97);
+  color: white;
+  display: block;
+  margin: 60px auto 10px auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 28px;
+  border: 1px solid rgb(50, 117, 97);
+  border-radius: 5px;
+}
+
+/*filmek/sorozatok*/
+form select {
+  height: 25px;
+  margin-bottom: 15px;
+}
+
+
+
+.card-img-top {
+  width: 400px;
+}
+
+.card-body {
+  width: 400px;
+}
+
+.card {
+  width: 400px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: white;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+.row {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.kosargomb {
+  border-radius: 7px;
+  font-size: 20px;
+  color: white;
+  height: 38px;
+  width: 110px;
+  border: 2px solid rgb(50, 117, 97);
+  background-color: rgb(50, 117, 97);
+}
+
+.torlesgomb {
+  border-radius: 7px;
+  font-size: 20px;
+  color: white;
+  height: 38px;
+  width: 110px;
+  border: 2px solid rgb(50, 117, 97);
+  background-color: rgb(50, 117, 97);
+}
+
+.torlesgombadmin {
+  border-radius: 7px;
+  font-size: 20px;
+  color: white;
+  height: 25px;
+  width: 110px;
+  border: 2px solid rgb(50, 117, 97);
+  background-color: rgb(50, 117, 97);
+}
+
+summary {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding: 20px;
+}
+
+details {
+  box-shadow: 5px 10px 18px #888888;
+  background-color: white;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.hatter {
+  margin: auto;
+  margin-bottom: 20px;
+  background-color: white;
+  width: 70%;
+}
+
+#admintabla {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  width: 70%;
+}
+#admintabla details{
+  width: 100%;
+}
+.sor{
+  margin-bottom: 10px;
+}
+.sor h3{
+  float: left;
+}
+.sor button{
+  margin-left: 10px;
+  float:right;
+}
+
+/*kosár*/
+
+
+
+.kosarimg {
+  width: 350px;
+  border-radius: 10px;
+  margin: 10px 0 10px 10px;
+}
+
+.osszefogo {
+  margin: auto;
+}
+
+.vasarlasok {
+  float: left;
+}
+
+.rows {
+  width: 800px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.col-md-4 {
+  margin-left: 100px;
+  font-size: large;
+
+}
+
+.torles {
+  margin-left: 100px;
+  font-size: large;
+
+}
+
+.torles input {
+  border-radius: 12px;
+  font-size: 20px;
+  background-color: white;
+  color: white;
+  border: 2px solid rgb(50, 117, 97);
+  background-color: rgb(50, 117, 97);
+}
+
+.oldalsav {
+  float: left;
+  display: flex;
+  padding-left: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: white;
+  border-radius: 12px;
+  width: 600px;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+
+.balra {
+  
+  float: left;
+  text-align: left;
+}
+
+.jobbra {
+  
+  float: right;
+}
+
+.jobbraFizet {
+  float: right;
+  padding-bottom: 50px;
+  padding-right: 25px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.jobbraFizet input[type="button"]{
+  float: right;
+  margin-top: 10px;
+}
+
+.jobbraFizet input[type="submit"] {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(50, 117, 97);
+  color: white;
+  display: block;
+  margin: 60px auto 10px auto;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 28px;
+  border: 1px solid rgb(50, 117, 97);
+  border-radius: 5px;
+}
+
+.fizetes {
+  float: left;
+  width: 500px;
+}
+.row_info {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.rows_profil {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  height: 200px;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.cols {
+  margin-left: auto;
+  margin-right: 50px;
+  width: 900px;
+  display: flex;
+  height: 700px;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 12px;
+  background-color: white;
+}
+
+/*.rendelesek {
+  
+}*/
+.card_profil {
+  width: 800px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.oldal {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+
+
+.rate {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  height: 46px;
+  padding: 0 10px;
+
+}
+
+.rate:not(:checked)>input {
+  position: absolute;
+  top: -9999px;
+}
+
+.rate:not(:checked)>label {
+  float: right;
+  width: 1em;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 30px;
+  color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+  content: '★ ';
+}
+
+.rate>input:checked~label {
+  color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+  color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+  color: #c59b08;
+}
+
+/*animáció*/
+/* Styling the area of the slides */
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+/* Style each of the sides 
+with a fixed width and height */
+
+.slide {
+  float: left;
+
+  width: 728px;
+}
+
+
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+
+  /* Calculate the total width on the
+basis of number of slides */
+  width: calc(728px * 4);
+
+  /* Specify the animation with the
+duration and speed */
+  animation: slide 40s ease infinite;
+}
+
+
+/* Define the animation 
+for the slideshow */
+
+@keyframes slide {
+
+  /* Calculate the margin-left for 
+each of the slides */
+  20% {
+    margin-left: 0px;
+  }
+
+  40% {
+    margin-left: calc(-728px * 1);
+  }
+
+  60% {
+    margin-left: calc(-728px * 2);
+  }
+
+  80% {
+    margin-left: calc(-728px * 3);
+  }
+}
+
+/*profil*/
+.card_profil p {
+  color: rgb(50, 117, 97);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.fizetes label {
+  font-size: 19px;
+}
+
+.fizetes input {
+  width: 500px;
+  height: 35px;
+  border-radius: 7px;
+}
+
+h6 {
+  font-size: 20px;
+}
+.profil_csik{
+  width: 95%;
+  border: 1px solid rgb(50, 117, 97);
+  margin-bottom: 10px;
+  margin-top: 0;
+  overflow: hidden;
+}
+.szemelyes{
+  width: 900px;
+  float: left;
+  margin-right: 50px;
+}
+.rendelesek_szoveg{
+  width: 900px;
+  margin-left: 50px;
+  float: left;
+}
+@media only screen and (max-width: 1900px) {
+  .szemelyes {margin: auto;float: none;}
+  .rendelesek_szoveg {margin: auto;float: none;}
+  .osszefogo {float: none;}
+  .row_info {align-items: center;flex-direction: column;justify-content: center;}
+  .cols{margin: auto;margin-bottom: 50px;}
+  .vasarlasok{margin: auto;float: none;}
+  .oldalsav{margin-left: auto;margin-right: auto; float: none;}
+}

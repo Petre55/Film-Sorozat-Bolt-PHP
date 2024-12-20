@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Admin</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/header1.png" alt="kep">
+    <img src="img/header1.png" alt="kep">
+    <img src="img/header1.png" alt="kep">
+  </header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Kezdőlap</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Kategóriák</a>
+        <div class="dropdown-content">
+          <a href="sorozat.html">Sorozatok</a>
+          <a href="filmek.html">Filmek</a>
+        </div>
+      </li>
+      <li class="jobbramegy"><a href="profil.html"><img class="profil" src="img/profile.png" alt="Profil"></a></li>
+      <li class="jobbramegy"><a href="admin.html"><img class="admin" src="img/admin.png" alt="Admin"></a></li>
+      <li class="jobbramegy"><a href="kosar.html">Kosár</a></li>
+      <li class="jobbramegy"><a href="login.html">Bejelentkezés</a></li>
+
+    </ul>
+  </nav>
+  <div class="oldal">
+    <h1>Admin</h1>
+    <details class="hatter">
+      <summary>Peti vásárlásai</summary>
+      <div>
+        <p>Trónokharca</p>
+        <p>Pókember</p>
+      </div>
+    </details>
+
+    <details class="hatter">
+      <summary>Fanni vásárlásai</summary>
+      <div>
+        <p>Barbie</p>
+      </div>
+    </details>
+
+    <details class="hatter">
+      <summary>Zsombi vásárlásai</summary>
+      <div>
+        <p>Kung Fu Panda</p>
+        <p>Vámpírnaplók</p>
+      </div>
+    </details>
+    <div id="admintabla">
+      <div class="sor">
+        <h3>Avatár</h3>
+        <button class="torlesgombadmin">Törlés</button>
+        <button class="torlesgombadmin">Módosít</button>
+      </div>
+      <div class="sor">
+        <h3>Forma1</h3>
+        <button class="torlesgombadmin">Törlés</button>
+        <button class="torlesgombadmin">Módosít</button>
+      </div>
+      <div class="sor">
+        <h3>Az újonc</h3>
+        <button class="torlesgombadmin">Törlés</button>
+        <button class="torlesgombadmin">Módosít</button>
+      </div>
+
+
+
+      <details class="hatter">
+        <summary>Hozzáadás</summary>
+        <div>
+          <p><label for="cim">Cím</label><br>
+            <input id="cim" type="text">
+          </p>
+          <p><label for="sorozat">Sorozat</label>
+            <input id="sorozat" type="checkbox"> <br>
+            <label for="film">Film</label>
+            <input id="film" type="checkbox">
+          </p>
+          <p><label for="evadok">Évadok száma</label><br>
+            <input id="evadok" type="number">
+          </p>
+          <p><label for="kep">Kép URL</label><br>
+            <input id="kep" type="url">
+          </p>
+          <input class="torlesgombadmin" type="button" value="Hozzáadás">
+        </div>
+      </details>
+    </div>
+    <footer>
+      <p class="elerhetoseg">Elérhetőségek:</p>
+      <div class="footer"><a href="mailto:">
+          <p class="res">pilvaxszte@gmail.com</p>
+        </a>
+        <p class="res">30/4569321</p>
+        <img class="logok res" src="img/facebook.png" alt="facebook">
+        <img class="logok res" src="img/Instagram_icon.png" alt="instagram">
+        <img class="logok res" src="img/tiktok.png" alt="tiktok">
+
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
